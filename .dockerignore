@@ -1,0 +1,24 @@
+# تجاهل ملفات النظام المؤقتة
+_pycache_/
+*.pyc
+*.pyo
+
+# تجاهل ملفات البيئة الافتراضية
+venv/
+.env
+
+# تجاهل ملفات PDF أو CSV ضخمة (لكن مش فولدر data كله)
+*.csv
+*.xlsx
+
+# تجاهل ملفات Git
+.git
+.gitignore
+
+# ملفات OS
+.DS_Store
+Thumbs.db
+
+# ملفات اللوج أو التطوير
+*.log
+tests/
